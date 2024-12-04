@@ -1,5 +1,7 @@
 name: ModelFactory-Terraform-Deployment
-on: [workflow_dispatch]
+# on: [workflow_dispatch]
+on:
+  workflow_dispatch:
 
 env:
   APPINSIGHTS_NAME: ${{ vars.APPINSIGHTS_NAME }}
